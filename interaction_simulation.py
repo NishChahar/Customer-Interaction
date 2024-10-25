@@ -6,7 +6,6 @@ from textblob import TextBlob
 from sqlalchemy import create_engine, Column, String, Float, Integer, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from sklearn.metrics import precision_score, recall_score, f1_score
 from flask import Flask, render_template
 from datetime import datetime
 
